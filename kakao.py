@@ -2,16 +2,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-@app.route("/", methods=["GET"]) # @app.route란? 어느 경로를 통해 들어갈 수 있는 지 나타내는 decorate 함수
-# def test():
-#     data = jsonify(
-#         version = 1.0,
-#         value_list=[
-#             "abc",
-#             "def"
-#         ]
-#     )
-#     return data
+@app.route("/", methods=["GET", "POST"]) # @app.route란? 어느 경로를 통해 들어갈 수 있는 지 나타내는 decorate 함수
 def skill():
     data = {
         "version": "2.0",
