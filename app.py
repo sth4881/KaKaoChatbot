@@ -22,9 +22,9 @@ def skill():
                         },
                         "buttons": [
                             {
-                                "label": "Go to Azure",
-                                "action": "webLink",
-                                "webLinkUrl": "https://portal.azure.com"
+                                "label": "010-3220-8813에 전화걸기",
+                                "action": "phone",
+                                "phoneNumber": "010-3220-8813"
                             }
                         ]
                     }
