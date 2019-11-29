@@ -22,9 +22,9 @@ def skill():
                         },
                         "buttons": [
                             {
-                                "label": "first button",
-                                "action": "message",
-                                "messageText": "Clicked the first button!"
+                                "label": "Go to Azure",
+                                "action": "webLink",
+                                "webLinkUrl": "https://portal.azure.com"
                             }
                         ]
                     }
