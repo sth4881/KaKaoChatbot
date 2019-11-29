@@ -9,12 +9,22 @@ def skill():
         "template": {
             "outputs": [
                 {
-                    "simpleImage": {
-                        "imageUrl":
-                            "http://builder.hufs.ac.kr/user/hufs/mycodyimages/new/goimg_navy.png",
-                                "altText": "HUFS LOGO"
+                    "basicCard": {
+                        "title": "카드의 제목",
+                        "description": "상세 설명",
+                        "thumbnail": {
+                            "imageUrl":
+            "https://t1.daumcdn.net/friends/www/talk/kakaofriends_talk_2018.png"
+                        },
+                        "buttons": [
+                            {
+                                "label": "first button",
+                                "action": "message",
+                                "messageText": "Clicked the first button!"
+                            }
+                        ]
                     }
-                }
+                 }
             ]
         }
     }
