@@ -10,7 +10,7 @@ def skill():
             "outputs": [
                 {
                     "simpleText": {
-                        "text": "The yellow button is the QuickReply!"
+                        "text": "User Key: " + str(request.json['userRequest']['user']['properties']['plusfriendUserKey'])
                     }
                 }
             ],
