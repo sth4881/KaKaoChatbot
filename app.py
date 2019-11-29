@@ -9,8 +9,10 @@ def skill():
         "template": {
             "outputs": [
                 {
-                    "simpleText": {
-                        "text": "간단한 텍스트 요소입니다."
+                    "simpleImage": {
+                        "imageUrl":
+                            "http://builder.hufs.ac.kr/user/hufs/mycodyimages/new/goimg_navy.png",
+                                "altText": "HUFS LOGO"
                     }
                 }
             ]
